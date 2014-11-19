@@ -691,11 +691,12 @@ class Image_Image : public MMgt_TShared {
 		%feature("autodoc", "1");
 		virtual		void Pixel(const Standard_Integer X, const Standard_Integer Y, Aspect_Pixel & aPixel) const;
 		%feature("autodoc", "1");
+		%csmethodmodifiers SetPixel "public";
 		virtual		void SetPixel(const Standard_Integer X, const Standard_Integer Y, const Aspect_Pixel &aPixel);
 		%feature("autodoc", "1");
 		virtual		void Pixel(const Standard_Integer X, const Standard_Integer Y, Image_PixelAddress & aPixel) const;
-		%feature("autodoc", "1");
-		virtual		void SetPixel(const Standard_Integer X, const Standard_Integer Y, const Image_PixelAddress &aPixel);
+		//%feature("autodoc", "1");
+		//virtual		void SetPixel(const Standard_Integer X, const Standard_Integer Y, const Image_PixelAddress &aPixel);
 		%feature("autodoc", "1");
 		virtual		void Transpose(const Image_FlipType aType);
 		%feature("autodoc", "1");
@@ -955,7 +956,6 @@ def __del__(self):
 	}
 };
 
-
 %nodefaultctor Image_DColorImage;
 class Image_DColorImage : public Image_Image {
 	public:
@@ -1017,8 +1017,9 @@ class Image_DColorImage : public Image_Image {
 		virtual		Standard_Boolean isSamePixel(const Standard_Integer X, const Standard_Integer Y, const Handle_Image_Image &anotherImage, const Standard_Integer anotherX, const Standard_Integer anotherY) const;
 		%feature("autodoc", "1");
 		virtual		void Pixel(const Standard_Integer X, const Standard_Integer Y, Aspect_Pixel & aPixel) const;
-		%feature("autodoc", "1");
-		virtual		void SetPixel(const Standard_Integer X, const Standard_Integer Y, const Aspect_Pixel &aPixel);
+		//%feature("autodoc", "1");
+		//%csmethodmodifiers SetPixel "public";
+		//virtual		void SetPixel(const Standard_Integer X, const Standard_Integer Y, const Aspect_Pixel &aPixel);
 		%feature("autodoc", "1");
 		virtual		void Pixel(const Standard_Integer X, const Standard_Integer Y, Image_PixelAddress & aPixel) const;
 		%feature("autodoc", "1");
@@ -1871,8 +1872,9 @@ class Image_DIndexedImage : public Image_Image {
 		virtual		Standard_Boolean isSamePixel(const Standard_Integer X, const Standard_Integer Y, const Handle_Image_Image &anotherImage, const Standard_Integer anotherX, const Standard_Integer anotherY) const;
 		%feature("autodoc", "1");
 		virtual		void Pixel(const Standard_Integer X, const Standard_Integer Y, Aspect_Pixel & aPixel) const;
-		%feature("autodoc", "1");
-		virtual		void SetPixel(const Standard_Integer X, const Standard_Integer Y, const Aspect_Pixel &aPixel);
+		//%feature("autodoc", "1");
+		//%csmethodmodifiers SetPixel "public";
+		//virtual		void SetPixel(const Standard_Integer X, const Standard_Integer Y, const Aspect_Pixel &aPixel);
 		%feature("autodoc", "1");
 		virtual		void Pixel(const Standard_Integer X, const Standard_Integer Y, Image_PixelAddress & aPixel) const;
 		%feature("autodoc", "1");
