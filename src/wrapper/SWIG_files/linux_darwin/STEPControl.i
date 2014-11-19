@@ -271,6 +271,7 @@ class STEPControl_Controller : public XSControl_Controller {
 		%feature("autodoc", "1");
 		virtual		void Customise(Handle_XSControl_WorkSession & WS);
 		%feature("autodoc", "1");
+		%csmethodmodifiers TransferWriteShape "public";
 		virtual		IFSelect_ReturnStatus TransferWriteShape(const TopoDS_Shape shape, const Handle_Transfer_FinderProcess &FP, const Handle_Interface_InterfaceModel &model, const Standard_Integer modetrans=0) const;
 		%feature("autodoc", "1");
 		static		Standard_Boolean Init();

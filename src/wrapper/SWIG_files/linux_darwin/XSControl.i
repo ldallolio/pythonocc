@@ -710,6 +710,7 @@ class XSControl_Controller : public MMgt_TShared {
 		%feature("autodoc", "1");
 		virtual		Standard_Boolean RecognizeWriteShape(const TopoDS_Shape shape, const Standard_Integer modetrans=0) const;
 		%feature("autodoc", "1");
+		%csmethodmodifiers TransferWriteShape "public";
 		virtual		IFSelect_ReturnStatus TransferWriteShape(const TopoDS_Shape shape, const Handle_Transfer_FinderProcess &FP, const Handle_Interface_InterfaceModel &model, const Standard_Integer modetrans=0) const;
 		%feature("autodoc", "1");
 		virtual		Handle_Standard_Transient ClusterContext(const Handle_XSControl_WorkSession &WS) const;
@@ -912,6 +913,7 @@ class XSControl_TransferWriter : public MMgt_TShared {
 		%feature("autodoc", "1");
 		Standard_Boolean RecognizeShape(const TopoDS_Shape shape);
 		%feature("autodoc", "1");
+		%csmethodmodifiers TransferWriteShape "public";
 		IFSelect_ReturnStatus TransferWriteShape(const Handle_Interface_InterfaceModel &model, const TopoDS_Shape shape);
 		%feature("autodoc", "1");
 		Interface_CheckIterator CheckList() const;
@@ -1005,6 +1007,7 @@ class XSControl_WorkSession : public IFSelect_WorkSession {
 		%feature("autodoc", "1");
 		Standard_Integer ModeWriteShape() const;
 		%feature("autodoc", "1");
+		%csmethodmodifiers TransferWriteShape "public";
 		IFSelect_ReturnStatus TransferWriteShape(const TopoDS_Shape shape, const Standard_Boolean compgraph=1);
 		%feature("autodoc", "1");
 		Interface_CheckIterator TransferWriteCheckList() const;
