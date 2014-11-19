@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TColGeom
+%module SWIGMOD_TColGeom
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

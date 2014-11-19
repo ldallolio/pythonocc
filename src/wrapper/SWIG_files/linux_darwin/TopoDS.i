@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TopoDS
+%module SWIGMOD_TopoDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -684,6 +684,7 @@ class TopoDS_Shape {
 		TopoDS_Shape EmptyCopied() const;
 		%feature("autodoc", "1");
 		void TShape(const Handle_TopoDS_TShape &TS);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -691,6 +692,8 @@ class TopoDS_Shape {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -699,6 +702,7 @@ class TopoDS_Shape {
 				return True
 		}
 
+#endif
 };
 %extend TopoDS_Shape {
 	Standard_Integer __hash__() {
@@ -720,6 +724,7 @@ def __del__(self):
 	}
 };
 %extend TopoDS_Shape {
+#if defined(SWIGPYTHON)
 %pythoncode {
 	def __getstate__(self):
 		from BRepTools import BRepTools_ShapeSet
@@ -738,6 +743,7 @@ def __del__(self):
 		the_shape.Location(location)
 		self.this = the_shape.this
 	}
+#endif
 };
 
 
@@ -748,6 +754,7 @@ class TopoDS_Vertex : public TopoDS_Shape {
 		TopoDS_Vertex(const TopoDS_Vertex arg0);
 		%feature("autodoc", "1");
 		TopoDS_Vertex();
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -755,6 +762,8 @@ class TopoDS_Vertex : public TopoDS_Shape {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -763,6 +772,7 @@ class TopoDS_Vertex : public TopoDS_Shape {
 				return True
 		}
 
+#endif
 };
 %feature("shadow") TopoDS_Vertex::~TopoDS_Vertex %{
 def __del__(self):

@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -38,3 +39,4 @@ import TColGeom
 import TColStd
 import TopAbs
 };
+#endif

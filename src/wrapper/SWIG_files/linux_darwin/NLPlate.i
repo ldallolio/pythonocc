@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module NLPlate
+%module SWIGMOD_NLPlate
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

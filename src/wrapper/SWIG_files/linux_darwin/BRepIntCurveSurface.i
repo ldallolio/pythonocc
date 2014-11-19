@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BRepIntCurveSurface
+%module SWIGMOD_BRepIntCurveSurface
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

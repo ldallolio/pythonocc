@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module RWStepDimTol
+%module SWIGMOD_RWStepDimTol
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

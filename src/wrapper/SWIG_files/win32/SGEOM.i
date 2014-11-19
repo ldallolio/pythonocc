@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module SGEOM
+%module SWIGMOD_SGEOM
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GeomProjLib
+%module SWIGMOD_GeomProjLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Units
+%module SWIGMOD_Units
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

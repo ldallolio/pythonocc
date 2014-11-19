@@ -1,6 +1,6 @@
 /*
 
-Copyright 2008-2010 Thomas Paviot (tpaviot@gmail.com)
+Copyright 2008-2014 Thomas Paviot (tpaviot@gmail.com)
 
 This file is part of pythonOCC.
 
@@ -17,16 +17,12 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with pythonOCC.  If not, see <http://www.gnu.org/licenses/>.
 
-$Revision$
-$Date$
-$Author$
-$HeaderURL$
-
 */
 
 /*
 Standard_Real & function transformation
 */
+#if defined(SWIGPYTHON)
 %typemap(argout) Standard_Real &OutValue {
     PyObject *o, *o2, *o3;
     o = PyFloat_FromDouble(*$1);
@@ -104,3 +100,9 @@ FairCurve_Analysis & function transformation
 %typemap(in,numinputs=0) FairCurve_AnalysisCode &OutValue(FairCurve_AnalysisCode temp) {
     $1 = &temp;
 }
+#endif
+#if defined(SWIGJAVA)
+#endif
+#if defined(SWIGCSHARP)
+#endif
+

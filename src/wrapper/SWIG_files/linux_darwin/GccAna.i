@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GccAna
+%module SWIGMOD_GccAna
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

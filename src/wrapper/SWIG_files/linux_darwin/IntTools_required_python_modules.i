@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -41,3 +42,4 @@ import BRepClass3d
 import Geom2dHatch
 import TCollection
 };
+#endif

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MFT
+%module SWIGMOD_MFT
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

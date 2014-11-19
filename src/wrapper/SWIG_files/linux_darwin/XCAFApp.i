@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XCAFApp
+%module SWIGMOD_XCAFApp
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

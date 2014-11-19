@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Voxel
+%module SWIGMOD_Voxel
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

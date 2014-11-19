@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntCurvesFace
+%module SWIGMOD_IntCurvesFace
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

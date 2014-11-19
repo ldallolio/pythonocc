@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IGESData
+%module SWIGMOD_IGESData
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -1670,6 +1670,7 @@ class IGESData_IGESType {
 		}
 		%feature("autodoc", "1");
 		void Nullify();
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -1678,6 +1679,7 @@ class IGESData_IGESType {
 				return False
 		}
 
+#endif
 };
 %feature("shadow") IGESData_IGESType::~IGESData_IGESType %{
 def __del__(self):

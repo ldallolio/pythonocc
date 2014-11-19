@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TFunction
+%module SWIGMOD_TFunction
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

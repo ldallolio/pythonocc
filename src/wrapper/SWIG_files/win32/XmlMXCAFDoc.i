@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XmlMXCAFDoc
+%module SWIGMOD_XmlMXCAFDoc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

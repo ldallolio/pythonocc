@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -40,3 +41,4 @@ import TColStd
 import Approx
 import BRepAdaptor
 };
+#endif

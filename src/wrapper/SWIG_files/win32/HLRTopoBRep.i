@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module HLRTopoBRep
+%module SWIGMOD_HLRTopoBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

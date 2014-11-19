@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StepToGeom
+%module SWIGMOD_StepToGeom
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

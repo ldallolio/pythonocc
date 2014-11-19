@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module NMTTools
+%module SWIGMOD_NMTTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

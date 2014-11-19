@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MDocStd
+%module SWIGMOD_MDocStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

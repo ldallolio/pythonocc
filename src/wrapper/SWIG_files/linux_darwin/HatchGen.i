@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module HatchGen
+%module SWIGMOD_HatchGen
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

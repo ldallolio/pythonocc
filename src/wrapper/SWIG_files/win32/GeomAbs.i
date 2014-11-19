@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GeomAbs
+%module SWIGMOD_GeomAbs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StlMesh
+%module SWIGMOD_StlMesh
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

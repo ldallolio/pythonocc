@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module LocOpe
+%module SWIGMOD_LocOpe
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

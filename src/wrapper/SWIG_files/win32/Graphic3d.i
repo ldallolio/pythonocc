@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Graphic3d
+%module SWIGMOD_Graphic3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -6057,6 +6057,7 @@ class Graphic3d_MaterialAspect {
 		char * MaterialName() const;
 		%feature("autodoc", "1");
 		static		Graphic3d_TypeOfMaterial MaterialType(const Standard_Integer aRank);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -6064,6 +6065,8 @@ class Graphic3d_MaterialAspect {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -6071,6 +6074,7 @@ class Graphic3d_MaterialAspect {
 			except:
 				return True
 		}
+#endif
 
 };
 %feature("shadow") Graphic3d_MaterialAspect::~Graphic3d_MaterialAspect %{

@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -32,3 +33,4 @@ import TopoDS
 import Standard
 import Geom2d
 };
+#endif

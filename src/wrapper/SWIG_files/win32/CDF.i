@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module CDF
+%module SWIGMOD_CDF
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

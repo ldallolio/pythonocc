@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MAT2d
+%module SWIGMOD_MAT2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -703,6 +703,7 @@ class MAT2d_BiInt {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -711,6 +712,7 @@ class MAT2d_BiInt {
 				return False
 		}
 
+#endif
 };
 %feature("shadow") MAT2d_BiInt::~MAT2d_BiInt %{
 def __del__(self):

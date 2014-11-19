@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ChFi2d
+%module SWIGMOD_ChFi2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

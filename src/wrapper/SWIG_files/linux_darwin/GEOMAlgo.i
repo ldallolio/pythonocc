@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GEOMAlgo
+%module SWIGMOD_GEOMAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -2470,6 +2470,7 @@ class GEOMAlgo_ShapeSet {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -2478,6 +2479,7 @@ class GEOMAlgo_ShapeSet {
 				return False
 		}
 
+#endif
 };
 %feature("shadow") GEOMAlgo_ShapeSet::~GEOMAlgo_ShapeSet %{
 def __del__(self):

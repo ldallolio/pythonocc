@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Prs2d
+%module SWIGMOD_Prs2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

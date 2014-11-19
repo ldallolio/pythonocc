@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IFGraph
+%module SWIGMOD_IFGraph
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

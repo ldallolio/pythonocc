@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Bisector
+%module SWIGMOD_Bisector
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

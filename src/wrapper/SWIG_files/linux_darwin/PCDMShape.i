@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PCDMShape
+%module SWIGMOD_PCDMShape
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

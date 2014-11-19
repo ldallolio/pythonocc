@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module RWStepElement
+%module SWIGMOD_RWStepElement
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MeshVS
+%module SWIGMOD_MeshVS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StlAPI
+%module SWIGMOD_StlAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

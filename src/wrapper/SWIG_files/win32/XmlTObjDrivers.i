@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XmlTObjDrivers
+%module SWIGMOD_XmlTObjDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

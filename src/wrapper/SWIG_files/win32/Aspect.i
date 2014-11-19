@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Aspect
+%module SWIGMOD_Aspect
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -2814,6 +2814,7 @@ class Aspect_IndexPixel : public Aspect_Pixel {
 		Standard_Integer _CSFDB_GetAspect_IndexPixelmyIndex() const;
 		%feature("autodoc", "1");
 		void _CSFDB_SetAspect_IndexPixelmyIndex(const Standard_Integer p);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -2821,6 +2822,8 @@ class Aspect_IndexPixel : public Aspect_Pixel {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -2828,6 +2831,7 @@ class Aspect_IndexPixel : public Aspect_Pixel {
 			except:
 				return True
 		}
+#endif
 
 };
 %extend Aspect_IndexPixel {
@@ -3377,6 +3381,7 @@ class Aspect_FontStyle {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -3384,6 +3389,8 @@ class Aspect_FontStyle {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -3391,6 +3398,7 @@ class Aspect_FontStyle {
 			except:
 				return True
 		}
+#endif
 
 };
 %feature("shadow") Aspect_FontStyle::~Aspect_FontStyle %{
@@ -5078,6 +5086,7 @@ class Aspect_LineStyle {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -5085,6 +5094,8 @@ class Aspect_LineStyle {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -5092,6 +5103,7 @@ class Aspect_LineStyle {
 			except:
 				return True
 		}
+#endif
 
 };
 %feature("shadow") Aspect_LineStyle::~Aspect_LineStyle %{
@@ -5201,6 +5213,7 @@ class Aspect_MarkerStyle {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -5208,6 +5221,8 @@ class Aspect_MarkerStyle {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -5215,6 +5230,7 @@ class Aspect_MarkerStyle {
 			except:
 				return True
 		}
+#endif
 
 };
 %feature("shadow") Aspect_MarkerStyle::~Aspect_MarkerStyle %{
@@ -5659,6 +5675,7 @@ class Aspect_ColorPixel : public Aspect_Pixel {
 		}
 		%feature("autodoc", "1");
 		const Quantity_Color & _CSFDB_GetAspect_ColorPixelmyColor() const;
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -5666,6 +5683,8 @@ class Aspect_ColorPixel : public Aspect_Pixel {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -5673,6 +5692,7 @@ class Aspect_ColorPixel : public Aspect_Pixel {
 			except:
 				return True
 		}
+#endif
 
 };
 %extend Aspect_ColorPixel {

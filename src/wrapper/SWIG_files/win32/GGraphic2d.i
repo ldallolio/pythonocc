@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GGraphic2d
+%module SWIGMOD_GGraphic2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

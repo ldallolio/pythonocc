@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Graphic2d
+%module SWIGMOD_Graphic2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -4134,6 +4134,7 @@ class Graphic2d_Vertex {
 		}
 		%feature("autodoc", "1");
 		static		Quantity_Length Distance(const Graphic2d_Vertex &AV1, const Graphic2d_Vertex &AV2);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -4141,6 +4142,7 @@ class Graphic2d_Vertex {
 			except:
 				return False
 		}
+#endif
 
 };
 %feature("shadow") Graphic2d_Vertex::~Graphic2d_Vertex %{

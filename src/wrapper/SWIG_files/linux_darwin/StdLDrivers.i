@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StdLDrivers
+%module SWIGMOD_StdLDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

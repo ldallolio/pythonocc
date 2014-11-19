@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PCollection
+%module SWIGMOD_PCollection
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

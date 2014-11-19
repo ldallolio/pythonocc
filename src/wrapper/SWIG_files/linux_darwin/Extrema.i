@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Extrema
+%module SWIGMOD_Extrema
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

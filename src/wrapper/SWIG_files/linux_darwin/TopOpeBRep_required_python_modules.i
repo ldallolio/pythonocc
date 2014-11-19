@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -42,3 +43,4 @@ import Geom2d
 import IntRes2d
 import IntSurf
 };
+#endif

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GeomToIGES
+%module SWIGMOD_GeomToIGES
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

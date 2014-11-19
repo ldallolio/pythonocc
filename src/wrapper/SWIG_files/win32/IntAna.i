@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntAna
+%module SWIGMOD_IntAna
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

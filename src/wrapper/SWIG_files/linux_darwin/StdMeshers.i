@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StdMeshers
+%module SWIGMOD_StdMeshers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BlockFix
+%module SWIGMOD_BlockFix
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

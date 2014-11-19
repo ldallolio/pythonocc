@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module RWStepGeom
+%module SWIGMOD_RWStepGeom
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

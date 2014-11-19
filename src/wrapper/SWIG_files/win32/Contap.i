@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Contap
+%module SWIGMOD_Contap
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

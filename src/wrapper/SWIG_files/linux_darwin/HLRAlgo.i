@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module HLRAlgo
+%module SWIGMOD_HLRAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

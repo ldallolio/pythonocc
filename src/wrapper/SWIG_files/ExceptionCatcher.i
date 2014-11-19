@@ -1,6 +1,6 @@
 /*
 
-Copyright 2008-2010 Thomas Paviot (tpaviot@gmail.com)
+Copyright 2008-2014 Thomas Paviot (tpaviot@gmail.com)
 
 This file is part of pythonOCC.
 
@@ -16,11 +16,6 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with pythonOCC.  If not, see <http://www.gnu.org/licenses/>.
-
-$Revision$
-$Date$
-$Author$
-$HeaderURL$
 
 */
 
@@ -49,8 +44,16 @@ Exception handling
 	    strcpy(message, error_name);
 	    strcat(message,"\n");
         strcat(message, error_message);
-        // raise the python exception
-        PyErr_SetString(PyExc_RuntimeError, message);
+		#if defined(SWIGPYTHON)
+		// raise the python exception
+		PyErr_SetString(PyExc_RuntimeError, message);
 	    return NULL;
+		#endif
+		#if defined(SWIGJAVA)
+		// %SWIG_JavaThrowException(jenv, SWIG_JavaRuntimeException, message);
+		#endif
+		#if defined(SWIGCSHARP)
+		// %SWIG_CSharpSetPendingException(SWIG_CSharpApplicationException, message)
+		#endif        
     }
 }

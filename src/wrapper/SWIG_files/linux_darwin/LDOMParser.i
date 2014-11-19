@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module LDOMParser
+%module SWIGMOD_LDOMParser
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

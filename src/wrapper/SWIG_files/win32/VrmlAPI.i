@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module VrmlAPI
+%module SWIGMOD_VrmlAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

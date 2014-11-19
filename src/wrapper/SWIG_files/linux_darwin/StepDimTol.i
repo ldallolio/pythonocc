@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StepDimTol
+%module SWIGMOD_StepDimTol
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

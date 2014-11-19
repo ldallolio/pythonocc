@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ApproxInt
+%module SWIGMOD_ApproxInt
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

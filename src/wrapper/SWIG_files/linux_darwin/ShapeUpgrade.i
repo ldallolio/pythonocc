@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ShapeUpgrade
+%module SWIGMOD_ShapeUpgrade
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

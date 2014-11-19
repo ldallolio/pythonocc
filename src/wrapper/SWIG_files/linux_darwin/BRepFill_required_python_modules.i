@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -41,3 +42,4 @@ import gp
 import AppParCurves
 import TCollection
 };
+#endif

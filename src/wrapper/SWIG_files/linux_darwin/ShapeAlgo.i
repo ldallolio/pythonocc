@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ShapeAlgo
+%module SWIGMOD_ShapeAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IGESGraph
+%module SWIGMOD_IGESGraph
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

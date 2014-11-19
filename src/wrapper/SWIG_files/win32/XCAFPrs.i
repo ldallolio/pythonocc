@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XCAFPrs
+%module SWIGMOD_XCAFPrs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -654,6 +654,7 @@ class XCAFPrs_Style {
 		static		Standard_Integer HashCode(const XCAFPrs_Style &S, const Standard_Integer Upper);
 		%feature("autodoc", "1");
 		static		Standard_Boolean IsEqual(const XCAFPrs_Style &S1, const XCAFPrs_Style &S2);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -661,6 +662,7 @@ class XCAFPrs_Style {
 			except:
 				return False
 		}
+#endif
 
 };
 %feature("shadow") XCAFPrs_Style::~XCAFPrs_Style %{

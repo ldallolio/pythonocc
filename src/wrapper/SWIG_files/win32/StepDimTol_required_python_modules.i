@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -33,3 +34,4 @@ import StepRepr
 import Standard
 import StepShape
 };
+#endif

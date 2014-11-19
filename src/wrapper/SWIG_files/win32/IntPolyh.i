@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntPolyh
+%module SWIGMOD_IntPolyh
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

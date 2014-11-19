@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module NIS
+%module SWIGMOD_NIS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

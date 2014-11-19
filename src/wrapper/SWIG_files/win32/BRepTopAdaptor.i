@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BRepTopAdaptor
+%module SWIGMOD_BRepTopAdaptor
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

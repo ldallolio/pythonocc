@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BinXCAFDrivers
+%module SWIGMOD_BinXCAFDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

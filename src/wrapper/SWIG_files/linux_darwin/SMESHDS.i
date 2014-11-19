@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module SMESHDS
+%module SWIGMOD_SMESHDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

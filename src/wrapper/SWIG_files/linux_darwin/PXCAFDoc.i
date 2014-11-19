@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PXCAFDoc
+%module SWIGMOD_PXCAFDoc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

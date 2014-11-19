@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Quantity
+%module SWIGMOD_Quantity
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -934,6 +934,7 @@ class Quantity_Period {
 		Standard_Integer _CSFDB_GetQuantity_PeriodmyUSec() const;
 		%feature("autodoc", "1");
 		void _CSFDB_SetQuantity_PeriodmyUSec(const Standard_Integer p);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -941,6 +942,7 @@ class Quantity_Period {
 			except:
 				return False
 		}
+#endif
 
 };
 %feature("shadow") Quantity_Period::~Quantity_Period %{
@@ -1190,6 +1192,7 @@ class Quantity_Color {
 		Standard_ShortReal _CSFDB_GetQuantity_ColorMyBlue() const;
 		%feature("autodoc", "1");
 		void _CSFDB_SetQuantity_ColorMyBlue(const Standard_ShortReal p);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -1197,6 +1200,8 @@ class Quantity_Color {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -1204,6 +1209,7 @@ class Quantity_Color {
 			except:
 				return True
 		}
+#endif
 
 };
 %feature("shadow") Quantity_Color::~Quantity_Color %{
@@ -1394,6 +1400,7 @@ class Quantity_Date {
 		Standard_Integer _CSFDB_GetQuantity_DatemyUSec() const;
 		%feature("autodoc", "1");
 		void _CSFDB_SetQuantity_DatemyUSec(const Standard_Integer p);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -1401,6 +1408,7 @@ class Quantity_Date {
 			except:
 				return False
 		}
+#endif
 
 };
 %feature("shadow") Quantity_Date::~Quantity_Date %{

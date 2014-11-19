@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module FilletSurf
+%module SWIGMOD_FilletSurf
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TColgp
+%module SWIGMOD_TColgp
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

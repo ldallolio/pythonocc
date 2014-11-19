@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StepFEA
+%module SWIGMOD_StepFEA
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

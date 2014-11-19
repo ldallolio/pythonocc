@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module SelectBasics
+%module SWIGMOD_SelectBasics
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

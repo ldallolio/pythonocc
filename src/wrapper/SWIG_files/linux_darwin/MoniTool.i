@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MoniTool
+%module SWIGMOD_MoniTool
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module VrmlConverter
+%module SWIGMOD_VrmlConverter
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GraphTools
+%module SWIGMOD_GraphTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

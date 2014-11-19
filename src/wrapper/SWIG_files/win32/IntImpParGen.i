@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntImpParGen
+%module SWIGMOD_IntImpParGen
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

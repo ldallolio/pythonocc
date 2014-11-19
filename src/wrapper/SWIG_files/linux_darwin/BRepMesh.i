@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BRepMesh
+%module SWIGMOD_BRepMesh
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -1800,6 +1800,7 @@ class BRepMesh_Vertex {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -1808,6 +1809,7 @@ class BRepMesh_Vertex {
 				return False
 		}
 
+#endif
 };
 %extend BRepMesh_Vertex {
 	Standard_Integer __hash__() {
@@ -3820,6 +3822,7 @@ class BRepMesh_Edge {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -3828,6 +3831,7 @@ class BRepMesh_Edge {
 				return False
 		}
 
+#endif
 };
 %extend BRepMesh_Edge {
 	Standard_Integer __hash__() {
@@ -3921,6 +3925,7 @@ class BRepMesh_Triangle {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -3929,6 +3934,7 @@ class BRepMesh_Triangle {
 				return False
 		}
 
+#endif
 };
 %extend BRepMesh_Triangle {
 	Standard_Integer __hash__() {

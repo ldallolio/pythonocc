@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BSplCLib
+%module SWIGMOD_BSplCLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

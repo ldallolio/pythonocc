@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XmlMNaming
+%module SWIGMOD_XmlMNaming
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

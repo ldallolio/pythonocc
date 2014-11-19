@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module SortTools
+%module SWIGMOD_SortTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

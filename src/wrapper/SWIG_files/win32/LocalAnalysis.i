@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module LocalAnalysis
+%module SWIGMOD_LocalAnalysis
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module SMDS
+%module SWIGMOD_SMDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

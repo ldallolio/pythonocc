@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PTopoDS
+%module SWIGMOD_PTopoDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

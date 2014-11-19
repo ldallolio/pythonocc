@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module RWHeaderSection
+%module SWIGMOD_RWHeaderSection
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

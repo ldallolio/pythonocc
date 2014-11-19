@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ShapeProcessAPI
+%module SWIGMOD_ShapeProcessAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

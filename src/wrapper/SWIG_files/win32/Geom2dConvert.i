@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Geom2dConvert
+%module SWIGMOD_Geom2dConvert
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

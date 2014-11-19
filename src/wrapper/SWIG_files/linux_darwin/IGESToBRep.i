@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IGESToBRep
+%module SWIGMOD_IGESToBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

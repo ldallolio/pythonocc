@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GeomPlate
+%module SWIGMOD_GeomPlate
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

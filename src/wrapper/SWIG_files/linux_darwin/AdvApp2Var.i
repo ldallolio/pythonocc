@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module AdvApp2Var
+%module SWIGMOD_AdvApp2Var
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

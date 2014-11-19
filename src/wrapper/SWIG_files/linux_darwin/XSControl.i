@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XSControl
+%module SWIGMOD_XSControl
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GeomTools
+%module SWIGMOD_GeomTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

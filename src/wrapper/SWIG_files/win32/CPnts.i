@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module CPnts
+%module SWIGMOD_CPnts
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

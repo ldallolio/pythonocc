@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GeomAPI
+%module SWIGMOD_GeomAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -47,3 +48,4 @@ import TopLoc
 import V3d
 import PrsMgr
 };
+#endif

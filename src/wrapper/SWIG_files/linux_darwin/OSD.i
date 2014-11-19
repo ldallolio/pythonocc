@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module OSD
+%module SWIGMOD_OSD
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TopLoc
+%module SWIGMOD_TopLoc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -473,6 +473,7 @@ class TopLoc_Location {
 			self->ShallowDump(s);
 			return s.str();}
 		};
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -480,6 +481,8 @@ class TopLoc_Location {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -487,6 +490,7 @@ class TopLoc_Location {
 			except:
 				return True
 		}
+#endif
 
 };
 %extend TopLoc_Location {

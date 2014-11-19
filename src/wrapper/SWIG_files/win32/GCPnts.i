@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GCPnts
+%module SWIGMOD_GCPnts
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BiTgte
+%module SWIGMOD_BiTgte
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

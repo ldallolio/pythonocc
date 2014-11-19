@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TColQuantity
+%module SWIGMOD_TColQuantity
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

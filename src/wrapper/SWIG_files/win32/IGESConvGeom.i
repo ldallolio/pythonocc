@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IGESConvGeom
+%module SWIGMOD_IGESConvGeom
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

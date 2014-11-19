@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module AIS2D
+%module SWIGMOD_AIS2D
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

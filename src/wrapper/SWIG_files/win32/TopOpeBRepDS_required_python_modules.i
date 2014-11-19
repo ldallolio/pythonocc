@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -37,3 +38,4 @@ import gp
 import Geom
 import TopTools
 };
+#endif

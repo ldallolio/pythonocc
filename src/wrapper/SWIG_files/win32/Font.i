@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Font
+%module SWIGMOD_Font
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

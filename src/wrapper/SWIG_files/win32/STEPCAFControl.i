@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module STEPCAFControl
+%module SWIGMOD_STEPCAFControl
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

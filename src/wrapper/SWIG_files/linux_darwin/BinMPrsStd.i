@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BinMPrsStd
+%module SWIGMOD_BinMPrsStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TopOpeBRepTool
+%module SWIGMOD_TopOpeBRepTool
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

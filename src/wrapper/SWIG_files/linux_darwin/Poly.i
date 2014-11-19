@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Poly
+%module SWIGMOD_Poly
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

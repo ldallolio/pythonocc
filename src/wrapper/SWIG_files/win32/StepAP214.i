@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StepAP214
+%module SWIGMOD_StepAP214
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

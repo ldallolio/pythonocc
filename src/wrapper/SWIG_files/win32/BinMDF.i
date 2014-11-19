@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BinMDF
+%module SWIGMOD_BinMDF
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

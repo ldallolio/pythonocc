@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BooleanOperations
+%module SWIGMOD_BooleanOperations
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

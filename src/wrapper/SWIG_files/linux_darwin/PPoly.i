@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PPoly
+%module SWIGMOD_PPoly
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

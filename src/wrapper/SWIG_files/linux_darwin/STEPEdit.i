@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module STEPEdit
+%module SWIGMOD_STEPEdit
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

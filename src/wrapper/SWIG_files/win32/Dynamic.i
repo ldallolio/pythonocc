@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Dynamic
+%module SWIGMOD_Dynamic
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

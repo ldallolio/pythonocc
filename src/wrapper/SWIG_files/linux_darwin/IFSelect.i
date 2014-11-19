@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IFSelect
+%module SWIGMOD_IFSelect
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

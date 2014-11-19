@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TColStd
+%module SWIGMOD_TColStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -5804,6 +5804,7 @@ class TColStd_PackedMapOfInteger : public TCollection_BasicMap {
 		Standard_Boolean operator<=(const TColStd_PackedMapOfInteger &MM) const;
 		%feature("autodoc", "1");
 		Standard_Boolean HasIntersection(const TColStd_PackedMapOfInteger &arg0) const;
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -5812,6 +5813,7 @@ class TColStd_PackedMapOfInteger : public TCollection_BasicMap {
 				return False
 		}
 
+#endif
 };
 %feature("shadow") TColStd_PackedMapOfInteger::~TColStd_PackedMapOfInteger %{
 def __del__(self):

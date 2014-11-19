@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IGESBasic
+%module SWIGMOD_IGESBasic
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

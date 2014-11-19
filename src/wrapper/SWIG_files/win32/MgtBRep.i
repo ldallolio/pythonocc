@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MgtBRep
+%module SWIGMOD_MgtBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

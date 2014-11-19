@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module FEmTool
+%module SWIGMOD_FEmTool
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

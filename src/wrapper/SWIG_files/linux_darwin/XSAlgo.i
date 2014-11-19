@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XSAlgo
+%module SWIGMOD_XSAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ShHealOper
+%module SWIGMOD_ShHealOper
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MgtTopoDS
+%module SWIGMOD_MgtTopoDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

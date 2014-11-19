@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module FairCurve
+%module SWIGMOD_FairCurve
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

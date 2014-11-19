@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module DBC
+%module SWIGMOD_DBC
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

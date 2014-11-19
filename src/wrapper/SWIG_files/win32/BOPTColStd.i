@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BOPTColStd
+%module SWIGMOD_BOPTColStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

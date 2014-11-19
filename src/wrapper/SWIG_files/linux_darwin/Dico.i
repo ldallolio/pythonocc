@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Dico
+%module SWIGMOD_Dico
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

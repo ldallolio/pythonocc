@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module V3d
+%module SWIGMOD_V3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -31,3 +32,4 @@ import IGESData
 import Standard
 import IGESGeom
 };
+#endif

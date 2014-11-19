@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ElSLib
+%module SWIGMOD_ElSLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntSurf
+%module SWIGMOD_IntSurf
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

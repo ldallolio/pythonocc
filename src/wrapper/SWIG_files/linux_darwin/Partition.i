@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Partition
+%module SWIGMOD_Partition
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module GccInt
+%module SWIGMOD_GccInt
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StepToTopoDS
+%module SWIGMOD_StepToTopoDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

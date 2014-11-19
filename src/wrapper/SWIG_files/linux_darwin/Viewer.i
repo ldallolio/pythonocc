@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Viewer
+%module SWIGMOD_Viewer
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

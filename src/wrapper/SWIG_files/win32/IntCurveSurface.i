@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntCurveSurface
+%module SWIGMOD_IntCurveSurface
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

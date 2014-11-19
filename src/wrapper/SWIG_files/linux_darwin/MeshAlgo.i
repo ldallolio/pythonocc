@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module MeshAlgo
+%module SWIGMOD_MeshAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

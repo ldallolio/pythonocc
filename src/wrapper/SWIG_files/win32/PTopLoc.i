@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PTopLoc
+%module SWIGMOD_PTopLoc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

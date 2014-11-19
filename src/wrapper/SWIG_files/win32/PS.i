@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PS
+%module SWIGMOD_PS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

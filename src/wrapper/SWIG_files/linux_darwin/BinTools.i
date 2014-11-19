@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BinTools
+%module SWIGMOD_BinTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

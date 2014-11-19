@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XmlMDF
+%module SWIGMOD_XmlMDF
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

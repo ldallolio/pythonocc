@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TCollection
+%module SWIGMOD_TCollection
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -488,6 +488,7 @@ class TCollection_AsciiString {
 		static		Standard_Integer HASHCODE(const TCollection_AsciiString &astring, const Standard_Integer Upper);
 		%feature("autodoc", "1");
 		static		Standard_Boolean ISSIMILAR(const TCollection_AsciiString &string1, const TCollection_AsciiString &string2);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -495,6 +496,8 @@ class TCollection_AsciiString {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -502,6 +505,7 @@ class TCollection_AsciiString {
 			except:
 				return True
 		}
+#endif
 
 };
 %feature("shadow") TCollection_AsciiString::~TCollection_AsciiString %{
@@ -991,6 +995,7 @@ class TCollection_ExtendedString {
 		Standard_Integer ToUTF8CString(Standard_PCharacter & theCString) const;
 		%feature("autodoc", "1");
 		Standard_Integer LengthOfCString() const;
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -998,6 +1003,8 @@ class TCollection_ExtendedString {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -1005,6 +1012,7 @@ class TCollection_ExtendedString {
 			except:
 				return True
 		}
+#endif
 
 };
 %feature("shadow") TCollection_ExtendedString::~TCollection_ExtendedString %{

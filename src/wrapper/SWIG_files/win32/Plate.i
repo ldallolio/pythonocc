@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Plate
+%module SWIGMOD_Plate
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

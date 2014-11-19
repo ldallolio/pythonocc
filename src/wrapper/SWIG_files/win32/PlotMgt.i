@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PlotMgt
+%module SWIGMOD_PlotMgt
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

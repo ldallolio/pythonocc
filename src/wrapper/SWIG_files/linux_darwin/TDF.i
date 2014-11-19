@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TDF
+%module SWIGMOD_TDF
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -2184,6 +2184,7 @@ class TDF_Label {
 			self->EntryDump(s);
 			return s.str();}
 		};
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -2191,6 +2192,8 @@ class TDF_Label {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -2199,6 +2202,7 @@ class TDF_Label {
 				return True
 		}
 
+#endif
 };
 %feature("shadow") TDF_Label::~TDF_Label %{
 def __del__(self):

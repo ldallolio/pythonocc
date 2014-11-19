@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IGESSolid
+%module SWIGMOD_IGESSolid
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

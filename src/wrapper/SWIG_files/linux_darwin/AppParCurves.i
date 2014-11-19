@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module AppParCurves
+%module SWIGMOD_AppParCurves
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

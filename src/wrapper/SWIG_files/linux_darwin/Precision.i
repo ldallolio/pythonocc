@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Precision
+%module SWIGMOD_Precision
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

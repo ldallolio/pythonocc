@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BRepOffsetAPI
+%module SWIGMOD_BRepOffsetAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module LProp3d
+%module SWIGMOD_LProp3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

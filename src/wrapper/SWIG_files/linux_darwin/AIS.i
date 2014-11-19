@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module AIS
+%module SWIGMOD_AIS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

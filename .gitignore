@@ -12,3 +12,4 @@ src/wrapper/SWIG_files/win32/*.cpp
 # ignore objects and archives, anywhere in the tree.
 *.[oa]
 src/build/*
+/cmake-build

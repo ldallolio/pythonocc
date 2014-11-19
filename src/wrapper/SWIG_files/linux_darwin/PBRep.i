@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PBRep
+%module SWIGMOD_PBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

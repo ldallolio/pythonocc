@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module XCAFDrivers
+%module SWIGMOD_XCAFDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

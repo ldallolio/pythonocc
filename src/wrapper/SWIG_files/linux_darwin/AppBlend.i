@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module AppBlend
+%module SWIGMOD_AppBlend
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

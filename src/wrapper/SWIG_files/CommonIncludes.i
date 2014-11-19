@@ -1,6 +1,6 @@
 /*
 
-Copyright 2008-2010 Thomas Paviot (tpaviot@gmail.com)
+Copyright 2008-2014 Thomas Paviot (tpaviot@gmail.com)
 
 This file is part of pythonOCC.
 
@@ -17,11 +17,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with pythonOCC.  If not, see <http://www.gnu.org/licenses/>.
 
-$Revision$
-$Date$
-$Author$
-$HeaderURL$
-
 */
 
 %include typemaps.i
@@ -29,6 +24,13 @@ $HeaderURL$
 %include cpointer.i
 %include carrays.i
 %include exception.i
-%include <python/std_list.i>
+#if defined(SWIGPYTHON)
 %include <python/std_string.i>
-%include <python/std_basic_string.i>
+#endif
+#if defined(SWIGJAVA)
+%include <java/std_string.i>
+#endif
+#if defined(SWIGCSHARP)
+%include <csharp/std_string.i>
+#endif
+

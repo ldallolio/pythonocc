@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Select3D
+%module SWIGMOD_Select3D
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module PColPGeom2d
+%module SWIGMOD_PColPGeom2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

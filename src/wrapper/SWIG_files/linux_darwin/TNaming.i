@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module TNaming
+%module SWIGMOD_TNaming
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

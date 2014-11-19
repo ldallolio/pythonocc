@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module ProjLib
+%module SWIGMOD_ProjLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

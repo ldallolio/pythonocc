@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Intf
+%module SWIGMOD_Intf
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -294,6 +294,7 @@ class Intf_SectionPoint {
 		void Merge(Intf_SectionPoint & Other);
 		%feature("autodoc", "1");
 		void Dump(const Standard_Integer Indent) const;
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -302,6 +303,7 @@ class Intf_SectionPoint {
 				return False
 		}
 
+#endif
 };
 %feature("shadow") Intf_SectionPoint::~Intf_SectionPoint %{
 def __del__(self):
@@ -687,6 +689,7 @@ class Intf_SectionLine {
 		void Close();
 		%feature("autodoc", "1");
 		void Dump(const Standard_Integer Indent) const;
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -695,6 +698,7 @@ class Intf_SectionLine {
 				return False
 		}
 
+#endif
 };
 %feature("shadow") Intf_SectionLine::~Intf_SectionLine %{
 def __del__(self):
@@ -896,6 +900,7 @@ class Intf_TangentZone {
 		void InsertAfter(const Standard_Integer Index, const Intf_SectionPoint &Pi);
 		%feature("autodoc", "1");
 		void Dump(const Standard_Integer Indent) const;
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -904,6 +909,7 @@ class Intf_TangentZone {
 				return False
 		}
 
+#endif
 };
 %feature("shadow") Intf_TangentZone::~Intf_TangentZone %{
 def __del__(self):

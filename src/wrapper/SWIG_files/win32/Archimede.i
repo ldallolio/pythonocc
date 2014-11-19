@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Archimede
+%module SWIGMOD_Archimede
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Standard
+%module SWIGMOD_Standard
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -167,6 +167,7 @@ class Handle_Standard_Transient {
 			self->Dump(s);
 			return s.str();}
 		};
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -174,6 +175,8 @@ class Handle_Standard_Transient {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -182,6 +185,7 @@ class Handle_Standard_Transient {
 				return True
 		}
 
+#endif
 };
 %extend Handle_Standard_Transient {
 	Standard_Transient* GetObject() {
@@ -219,6 +223,7 @@ class Handle_Standard_Failure : public Handle_Standard_Transient {
 		Handle_Standard_Failure & operator=(const Standard_Failure *anItem);
 		%feature("autodoc", "1");
 		static		Handle_Standard_Failure DownCast(const Handle_Standard_Transient &AnObject);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -226,6 +231,8 @@ class Handle_Standard_Failure : public Handle_Standard_Transient {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -234,6 +241,7 @@ class Handle_Standard_Failure : public Handle_Standard_Transient {
 				return True
 		}
 
+#endif
 };
 %extend Handle_Standard_Failure {
 	Standard_Failure* GetObject() {
@@ -271,6 +279,7 @@ class Handle_Standard_DomainError : public Handle_Standard_Failure {
 		Handle_Standard_DomainError & operator=(const Standard_DomainError *anItem);
 		%feature("autodoc", "1");
 		static		Handle_Standard_DomainError DownCast(const Handle_Standard_Transient &AnObject);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -278,6 +287,8 @@ class Handle_Standard_DomainError : public Handle_Standard_Failure {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -286,6 +297,7 @@ class Handle_Standard_DomainError : public Handle_Standard_Failure {
 				return True
 		}
 
+#endif
 };
 %extend Handle_Standard_DomainError {
 	Standard_DomainError* GetObject() {
@@ -323,6 +335,7 @@ class Handle_Standard_RangeError : public Handle_Standard_DomainError {
 		Handle_Standard_RangeError & operator=(const Standard_RangeError *anItem);
 		%feature("autodoc", "1");
 		static		Handle_Standard_RangeError DownCast(const Handle_Standard_Transient &AnObject);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -330,6 +343,8 @@ class Handle_Standard_RangeError : public Handle_Standard_DomainError {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -338,6 +353,7 @@ class Handle_Standard_RangeError : public Handle_Standard_DomainError {
 				return True
 		}
 
+#endif
 };
 %extend Handle_Standard_RangeError {
 	Standard_RangeError* GetObject() {
@@ -375,6 +391,7 @@ class Handle_Standard_NullValue : public Handle_Standard_RangeError {
 		Handle_Standard_NullValue & operator=(const Standard_NullValue *anItem);
 		%feature("autodoc", "1");
 		static		Handle_Standard_NullValue DownCast(const Handle_Standard_Transient &AnObject);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -382,6 +399,8 @@ class Handle_Standard_NullValue : public Handle_Standard_RangeError {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -390,6 +409,7 @@ class Handle_Standard_NullValue : public Handle_Standard_RangeError {
 				return True
 		}
 
+#endif
 };
 %extend Handle_Standard_NullValue {
 	Standard_NullValue* GetObject() {
@@ -807,6 +827,7 @@ class Handle_Standard_Persistent {
 		Handle_Standard_Persistent & operator=(const Standard_Persistent *anItem);
 		%feature("autodoc", "1");
 		static		Handle_Standard_Persistent const DownCast(const Handle_Standard_Persistent &AnObject);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -814,6 +835,8 @@ class Handle_Standard_Persistent {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -822,6 +845,7 @@ class Handle_Standard_Persistent {
 				return True
 		}
 
+#endif
 };
 %extend Handle_Standard_Persistent {
 	Standard_Persistent* GetObject() {
@@ -2028,6 +2052,7 @@ class Standard_Storable {
 			self->ShallowDump(s);
 			return s.str();}
 		};
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -2036,6 +2061,7 @@ class Standard_Storable {
 				return False
 		}
 
+#endif
 };
 %extend Standard_Storable {
 	Standard_Integer __hash__() {
@@ -2870,6 +2896,7 @@ class Standard_GUID {
 		Standard_Byte _CSFDB_GetStandard_GUIDmy8b6() const;
 		%feature("autodoc", "1");
 		void _CSFDB_SetStandard_GUIDmy8b6(const Standard_Byte p);
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -2877,6 +2904,8 @@ class Standard_GUID {
 			except:
 				return False
 		}
+#endif
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __ne__(self,right):
 			try:
@@ -2885,6 +2914,7 @@ class Standard_GUID {
 				return True
 		}
 
+#endif
 };
 %feature("shadow") Standard_GUID::~Standard_GUID %{
 def __del__(self):

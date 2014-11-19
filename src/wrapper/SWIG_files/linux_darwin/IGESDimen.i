@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IGESDimen
+%module SWIGMOD_IGESDimen
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

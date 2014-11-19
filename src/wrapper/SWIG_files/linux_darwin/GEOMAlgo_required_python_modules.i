@@ -24,6 +24,7 @@ $HeaderURL$
 
 */
 
+#if defined(SWIGPYTHON)
 %pythoncode {
 #importing required modules
 import GarbageCollector
@@ -39,3 +40,4 @@ import TCollection
 import IntTools
 import BOPTColStd
 };
+#endif

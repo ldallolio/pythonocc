@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntTools
+%module SWIGMOD_IntTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
@@ -2272,6 +2272,7 @@ class IntTools_CArray1OfInteger {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -2279,6 +2280,7 @@ class IntTools_CArray1OfInteger {
 			except:
 				return False
 		}
+#endif
 
 };
 %feature("shadow") IntTools_CArray1OfInteger::~IntTools_CArray1OfInteger %{
@@ -3390,6 +3392,7 @@ class IntTools_CArray1OfReal {
 				else return false;
 			}
 		}
+#if defined(SWIGPYTHON)
 		%pythoncode {
 		def __eq__(self,right):
 			try:
@@ -3397,6 +3400,7 @@ class IntTools_CArray1OfReal {
 			except:
 				return False
 		}
+#endif
 
 };
 %feature("shadow") IntTools_CArray1OfReal::~IntTools_CArray1OfReal %{

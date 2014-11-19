@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module IntWalk
+%module SWIGMOD_IntWalk
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

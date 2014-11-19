@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module Transfer
+%module SWIGMOD_Transfer
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

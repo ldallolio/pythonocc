@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module BinTObjDrivers
+%module SWIGMOD_BinTObjDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

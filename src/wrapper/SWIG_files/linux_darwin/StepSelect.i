@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module StepSelect
+%module SWIGMOD_StepSelect
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

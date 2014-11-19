@@ -31,7 +31,7 @@ $HeaderURL$
 #endif
 %}
 
-%module DsgPrs
+%module SWIGMOD_DsgPrs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
