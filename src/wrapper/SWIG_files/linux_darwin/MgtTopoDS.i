@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_MgtTopoDS
+%rename(swm_MgtTopoDS) MgtTopoDS; 
+%module (package="OCC") MgtTopoDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

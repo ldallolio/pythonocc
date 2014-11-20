@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Resource
+%rename(swm_Resource) Resource; 
+%module (package="OCC") Resource
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

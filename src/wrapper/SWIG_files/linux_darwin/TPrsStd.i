@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_TPrsStd
+%rename(swm_TPrsStd) TPrsStd; 
+%module (package="OCC") TPrsStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

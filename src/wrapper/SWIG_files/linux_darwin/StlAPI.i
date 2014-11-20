@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StlAPI
+%rename(swm_StlAPI) StlAPI; 
+%module (package="OCC") StlAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

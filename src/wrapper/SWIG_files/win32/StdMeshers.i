@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StdMeshers
+%rename(swm_StdMeshers) StdMeshers; 
+%module (package="OCC") StdMeshers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Geom2dAdaptor
+%rename(swm_Geom2dAdaptor) Geom2dAdaptor; 
+%module (package="OCC") Geom2dAdaptor
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

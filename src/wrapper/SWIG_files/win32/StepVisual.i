@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StepVisual
+%rename(swm_StepVisual) StepVisual; 
+%module (package="OCC") StepVisual
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

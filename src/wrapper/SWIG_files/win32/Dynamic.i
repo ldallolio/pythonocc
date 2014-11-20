@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Dynamic
+%rename(swm_Dynamic) Dynamic; 
+%module (package="OCC") Dynamic
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

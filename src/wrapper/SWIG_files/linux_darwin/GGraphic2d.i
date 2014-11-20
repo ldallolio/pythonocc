@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GGraphic2d
+%rename(swm_GGraphic2d) GGraphic2d; 
+%module (package="OCC") GGraphic2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

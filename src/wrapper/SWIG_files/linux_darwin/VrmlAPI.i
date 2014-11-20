@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_VrmlAPI
+%rename(swm_VrmlAPI) VrmlAPI; 
+%module (package="OCC") VrmlAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

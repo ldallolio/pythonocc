@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepCheck
+%rename(swm_BRepCheck) BRepCheck; 
+%module (package="OCC") BRepCheck
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

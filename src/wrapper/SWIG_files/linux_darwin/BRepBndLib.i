@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepBndLib
+%rename(swm_BRepBndLib) BRepBndLib; 
+%module (package="OCC") BRepBndLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_XmlMDF
+%rename(swm_XmlMDF) XmlMDF; 
+%module (package="OCC") XmlMDF
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

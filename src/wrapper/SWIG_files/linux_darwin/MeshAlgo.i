@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_MeshAlgo
+%rename(swm_MeshAlgo) MeshAlgo; 
+%module (package="OCC") MeshAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

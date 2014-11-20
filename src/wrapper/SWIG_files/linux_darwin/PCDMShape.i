@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_PCDMShape
+%rename(swm_PCDMShape) PCDMShape; 
+%module (package="OCC") PCDMShape
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

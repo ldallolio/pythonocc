@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESConvGeom
+%rename(swm_IGESConvGeom) IGESConvGeom; 
+%module (package="OCC") IGESConvGeom
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

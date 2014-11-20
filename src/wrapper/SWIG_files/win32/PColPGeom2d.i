@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_PColPGeom2d
+%rename(swm_PColPGeom2d) PColPGeom2d; 
+%module (package="OCC") PColPGeom2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_MeshDS
+%rename(swm_MeshDS) MeshDS; 
+%module (package="OCC") MeshDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepExtrema
+%rename(swm_BRepExtrema) BRepExtrema; 
+%module (package="OCC") BRepExtrema
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

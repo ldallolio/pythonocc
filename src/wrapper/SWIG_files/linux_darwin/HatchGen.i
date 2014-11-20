@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_HatchGen
+%rename(swm_HatchGen) HatchGen; 
+%module (package="OCC") HatchGen
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

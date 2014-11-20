@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_TDocStd
+%rename(swm_TDocStd) TDocStd; 
+%module (package="OCC") TDocStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

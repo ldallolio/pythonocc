@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StepFEA
+%rename(swm_StepFEA) StepFEA; 
+%module (package="OCC") StepFEA
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

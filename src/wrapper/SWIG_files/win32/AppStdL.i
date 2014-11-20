@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_AppStdL
+%rename(swm_AppStdL) AppStdL; 
+%module (package="OCC") AppStdL
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

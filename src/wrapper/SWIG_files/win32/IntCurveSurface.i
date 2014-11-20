@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IntCurveSurface
+%rename(swm_IntCurveSurface) IntCurveSurface; 
+%module (package="OCC") IntCurveSurface
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ShapeAnalysis
+%rename(swm_ShapeAnalysis) ShapeAnalysis; 
+%module (package="OCC") ShapeAnalysis
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

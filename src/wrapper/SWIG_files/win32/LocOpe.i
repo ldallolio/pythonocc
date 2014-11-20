@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_LocOpe
+%rename(swm_LocOpe) LocOpe; 
+%module (package="OCC") LocOpe
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

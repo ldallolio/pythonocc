@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESSolid
+%rename(swm_IGESSolid) IGESSolid; 
+%module (package="OCC") IGESSolid
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

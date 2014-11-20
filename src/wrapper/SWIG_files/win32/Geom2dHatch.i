@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Geom2dHatch
+%rename(swm_Geom2dHatch) Geom2dHatch; 
+%module (package="OCC") Geom2dHatch
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

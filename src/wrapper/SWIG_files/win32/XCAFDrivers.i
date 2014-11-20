@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_XCAFDrivers
+%rename(swm_XCAFDrivers) XCAFDrivers; 
+%module (package="OCC") XCAFDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

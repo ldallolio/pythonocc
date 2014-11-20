@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_SMDSAbs
+%rename(swm_SMDSAbs) SMDSAbs; 
+%module (package="OCC") SMDSAbs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

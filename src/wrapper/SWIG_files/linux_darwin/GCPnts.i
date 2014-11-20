@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GCPnts
+%rename(swm_GCPnts) GCPnts; 
+%module (package="OCC") GCPnts
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

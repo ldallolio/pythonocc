@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IntPoly
+%rename(swm_IntPoly) IntPoly; 
+%module (package="OCC") IntPoly
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

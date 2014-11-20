@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Geom2dAPI
+%rename(swm_Geom2dAPI) Geom2dAPI; 
+%module (package="OCC") Geom2dAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

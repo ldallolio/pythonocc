@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_SGEOM
+%rename(swm_SGEOM) SGEOM; 
+%module (package="OCC") SGEOM
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

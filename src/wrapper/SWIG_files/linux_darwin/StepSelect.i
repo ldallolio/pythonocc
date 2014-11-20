@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StepSelect
+%rename(swm_StepSelect) StepSelect; 
+%module (package="OCC") StepSelect
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

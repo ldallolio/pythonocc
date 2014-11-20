@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StepDimTol
+%rename(swm_StepDimTol) StepDimTol; 
+%module (package="OCC") StepDimTol
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

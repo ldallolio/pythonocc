@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_FEmTool
+%rename(swm_FEmTool) FEmTool; 
+%module (package="OCC") FEmTool
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

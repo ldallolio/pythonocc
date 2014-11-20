@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESToBRep
+%rename(swm_IGESToBRep) IGESToBRep; 
+%module (package="OCC") IGESToBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

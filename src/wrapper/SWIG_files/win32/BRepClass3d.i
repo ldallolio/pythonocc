@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepClass3d
+%rename(swm_BRepClass3d) BRepClass3d; 
+%module (package="OCC") BRepClass3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

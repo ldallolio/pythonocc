@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BOPTools
+%rename(swm_BOPTools) BOPTools; 
+%module (package="OCC") BOPTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

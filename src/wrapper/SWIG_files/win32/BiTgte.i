@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BiTgte
+%rename(swm_BiTgte) BiTgte; 
+%module (package="OCC") BiTgte
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

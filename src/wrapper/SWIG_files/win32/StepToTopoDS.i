@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StepToTopoDS
+%rename(swm_StepToTopoDS) StepToTopoDS; 
+%module (package="OCC") StepToTopoDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

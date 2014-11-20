@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepMAT2d
+%rename(swm_BRepMAT2d) BRepMAT2d; 
+%module (package="OCC") BRepMAT2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

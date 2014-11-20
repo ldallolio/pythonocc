@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IntRes2d
+%rename(swm_IntRes2d) IntRes2d; 
+%module (package="OCC") IntRes2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

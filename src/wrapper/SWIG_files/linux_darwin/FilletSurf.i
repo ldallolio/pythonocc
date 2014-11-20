@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_FilletSurf
+%rename(swm_FilletSurf) FilletSurf; 
+%module (package="OCC") FilletSurf
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

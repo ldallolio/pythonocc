@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BinMNaming
+%rename(swm_BinMNaming) BinMNaming; 
+%module (package="OCC") BinMNaming
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

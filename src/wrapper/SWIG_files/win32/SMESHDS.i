@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_SMESHDS
+%rename(swm_SMESHDS) SMESHDS; 
+%module (package="OCC") SMESHDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

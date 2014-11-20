@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_XmlTObjDrivers
+%rename(swm_XmlTObjDrivers) XmlTObjDrivers; 
+%module (package="OCC") XmlTObjDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

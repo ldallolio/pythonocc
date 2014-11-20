@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GraphTools
+%rename(swm_GraphTools) GraphTools; 
+%module (package="OCC") GraphTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

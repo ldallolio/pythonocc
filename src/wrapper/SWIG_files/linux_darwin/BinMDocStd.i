@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BinMDocStd
+%rename(swm_BinMDocStd) BinMDocStd; 
+%module (package="OCC") BinMDocStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

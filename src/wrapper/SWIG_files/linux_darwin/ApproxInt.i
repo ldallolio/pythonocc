@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ApproxInt
+%rename(swm_ApproxInt) ApproxInt; 
+%module (package="OCC") ApproxInt
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

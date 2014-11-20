@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_NMTTools
+%rename(swm_NMTTools) NMTTools; 
+%module (package="OCC") NMTTools
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

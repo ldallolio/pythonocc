@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ObjMgt
+%rename(swm_ObjMgt) ObjMgt; 
+%module (package="OCC") ObjMgt
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

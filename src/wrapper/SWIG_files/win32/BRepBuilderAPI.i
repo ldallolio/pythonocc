@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepBuilderAPI
+%rename(swm_BRepBuilderAPI) BRepBuilderAPI; 
+%module (package="OCC") BRepBuilderAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

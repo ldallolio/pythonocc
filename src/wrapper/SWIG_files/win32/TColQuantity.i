@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_TColQuantity
+%rename(swm_TColQuantity) TColQuantity; 
+%module (package="OCC") TColQuantity
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

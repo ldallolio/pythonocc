@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ShapeProcessAPI
+%rename(swm_ShapeProcessAPI) ShapeProcessAPI; 
+%module (package="OCC") ShapeProcessAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_TColGeom
+%rename(swm_TColGeom) TColGeom; 
+%module (package="OCC") TColGeom
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

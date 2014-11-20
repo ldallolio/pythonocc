@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ShapeFix
+%rename(swm_ShapeFix) ShapeFix; 
+%module (package="OCC") ShapeFix
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

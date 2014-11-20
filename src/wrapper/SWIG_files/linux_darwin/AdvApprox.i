@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_AdvApprox
+%rename(swm_AdvApprox) AdvApprox; 
+%module (package="OCC") AdvApprox
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESDimen
+%rename(swm_IGESDimen) IGESDimen; 
+%module (package="OCC") IGESDimen
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

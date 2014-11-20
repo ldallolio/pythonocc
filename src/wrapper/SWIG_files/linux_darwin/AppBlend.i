@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_AppBlend
+%rename(swm_AppBlend) AppBlend; 
+%module (package="OCC") AppBlend
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_FairCurve
+%rename(swm_FairCurve) FairCurve; 
+%module (package="OCC") FairCurve
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

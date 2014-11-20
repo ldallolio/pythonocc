@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_LDOMParser
+%rename(swm_LDOMParser) LDOMParser; 
+%module (package="OCC") LDOMParser
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

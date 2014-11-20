@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_HLRBRep
+%rename(swm_HLRBRep) HLRBRep; 
+%module (package="OCC") HLRBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

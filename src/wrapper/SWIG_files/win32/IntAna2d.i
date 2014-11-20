@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IntAna2d
+%rename(swm_IntAna2d) IntAna2d; 
+%module (package="OCC") IntAna2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StdPrs
+%rename(swm_StdPrs) StdPrs; 
+%module (package="OCC") StdPrs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

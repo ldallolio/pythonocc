@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_HLRAlgo
+%rename(swm_HLRAlgo) HLRAlgo; 
+%module (package="OCC") HLRAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

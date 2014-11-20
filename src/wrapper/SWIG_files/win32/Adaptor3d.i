@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Adaptor3d
+%rename(swm_Adaptor3d) Adaptor3d; 
+%module (package="OCC") Adaptor3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

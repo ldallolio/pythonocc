@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GeomAbs
+%rename(swm_GeomAbs) GeomAbs; 
+%module (package="OCC") GeomAbs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_PlotMgt
+%rename(swm_PlotMgt) PlotMgt; 
+%module (package="OCC") PlotMgt
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_PGeom2d
+%rename(swm_PGeom2d) PGeom2d; 
+%module (package="OCC") PGeom2d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

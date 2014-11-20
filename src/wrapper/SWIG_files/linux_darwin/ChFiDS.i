@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ChFiDS
+%rename(swm_ChFiDS) ChFiDS; 
+%module (package="OCC") ChFiDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ElSLib
+%rename(swm_ElSLib) ElSLib; 
+%module (package="OCC") ElSLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

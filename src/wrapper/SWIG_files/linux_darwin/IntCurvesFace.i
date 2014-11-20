@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IntCurvesFace
+%rename(swm_IntCurvesFace) IntCurvesFace; 
+%module (package="OCC") IntCurvesFace
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

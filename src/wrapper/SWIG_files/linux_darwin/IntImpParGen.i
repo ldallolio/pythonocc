@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IntImpParGen
+%rename(swm_IntImpParGen) IntImpParGen; 
+%module (package="OCC") IntImpParGen
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

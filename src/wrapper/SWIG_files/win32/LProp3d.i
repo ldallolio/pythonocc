@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_LProp3d
+%rename(swm_LProp3d) LProp3d; 
+%module (package="OCC") LProp3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

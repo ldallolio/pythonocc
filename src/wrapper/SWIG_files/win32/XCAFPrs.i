@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_XCAFPrs
+%rename(swm_XCAFPrs) XCAFPrs; 
+%module (package="OCC") XCAFPrs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

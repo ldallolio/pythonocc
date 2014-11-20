@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESSelect
+%rename(swm_IGESSelect) IGESSelect; 
+%module (package="OCC") IGESSelect
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

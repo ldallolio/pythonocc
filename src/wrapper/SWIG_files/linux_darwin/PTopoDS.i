@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_PTopoDS
+%rename(swm_PTopoDS) PTopoDS; 
+%module (package="OCC") PTopoDS
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

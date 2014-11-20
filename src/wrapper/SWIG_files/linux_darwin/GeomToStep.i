@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GeomToStep
+%rename(swm_GeomToStep) GeomToStep; 
+%module (package="OCC") GeomToStep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

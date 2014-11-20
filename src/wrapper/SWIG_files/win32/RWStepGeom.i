@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_RWStepGeom
+%rename(swm_RWStepGeom) RWStepGeom; 
+%module (package="OCC") RWStepGeom
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

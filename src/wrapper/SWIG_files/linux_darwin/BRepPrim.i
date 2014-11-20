@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepPrim
+%rename(swm_BRepPrim) BRepPrim; 
+%module (package="OCC") BRepPrim
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

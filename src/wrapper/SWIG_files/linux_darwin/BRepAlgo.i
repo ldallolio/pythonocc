@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepAlgo
+%rename(swm_BRepAlgo) BRepAlgo; 
+%module (package="OCC") BRepAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

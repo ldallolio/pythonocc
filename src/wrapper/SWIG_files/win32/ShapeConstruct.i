@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ShapeConstruct
+%rename(swm_ShapeConstruct) ShapeConstruct; 
+%module (package="OCC") ShapeConstruct
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

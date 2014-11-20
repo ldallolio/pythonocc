@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_TransferBRep
+%rename(swm_TransferBRep) TransferBRep; 
+%module (package="OCC") TransferBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

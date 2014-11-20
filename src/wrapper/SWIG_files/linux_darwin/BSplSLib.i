@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BSplSLib
+%rename(swm_BSplSLib) BSplSLib; 
+%module (package="OCC") BSplSLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

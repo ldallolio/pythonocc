@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Graphic3d
+%rename(swm_Graphic3d) Graphic3d; 
+%module (package="OCC") Graphic3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

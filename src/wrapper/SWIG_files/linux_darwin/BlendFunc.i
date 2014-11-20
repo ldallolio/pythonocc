@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BlendFunc
+%rename(swm_BlendFunc) BlendFunc; 
+%module (package="OCC") BlendFunc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

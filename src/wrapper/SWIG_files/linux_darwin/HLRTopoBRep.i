@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_HLRTopoBRep
+%rename(swm_HLRTopoBRep) HLRTopoBRep; 
+%module (package="OCC") HLRTopoBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

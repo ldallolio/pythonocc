@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_RWStepRepr
+%rename(swm_RWStepRepr) RWStepRepr; 
+%module (package="OCC") RWStepRepr
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

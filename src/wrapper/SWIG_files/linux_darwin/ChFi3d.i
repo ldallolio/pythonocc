@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ChFi3d
+%rename(swm_ChFi3d) ChFi3d; 
+%module (package="OCC") ChFi3d
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

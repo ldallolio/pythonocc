@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_LocalAnalysis
+%rename(swm_LocalAnalysis) LocalAnalysis; 
+%module (package="OCC") LocalAnalysis
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_AIS2D
+%rename(swm_AIS2D) AIS2D; 
+%module (package="OCC") AIS2D
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

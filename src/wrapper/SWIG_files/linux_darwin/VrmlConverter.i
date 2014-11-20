@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_VrmlConverter
+%rename(swm_VrmlConverter) VrmlConverter; 
+%module (package="OCC") VrmlConverter
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

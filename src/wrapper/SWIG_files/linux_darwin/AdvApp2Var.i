@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_AdvApp2Var
+%rename(swm_AdvApp2Var) AdvApp2Var; 
+%module (package="OCC") AdvApp2Var
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

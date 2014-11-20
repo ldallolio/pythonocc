@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Geom2dToIGES
+%rename(swm_Geom2dToIGES) Geom2dToIGES; 
+%module (package="OCC") Geom2dToIGES
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

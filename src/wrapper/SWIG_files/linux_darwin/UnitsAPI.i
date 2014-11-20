@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_UnitsAPI
+%rename(swm_UnitsAPI) UnitsAPI; 
+%module (package="OCC") UnitsAPI
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_MoniTool
+%rename(swm_MoniTool) MoniTool; 
+%module (package="OCC") MoniTool
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

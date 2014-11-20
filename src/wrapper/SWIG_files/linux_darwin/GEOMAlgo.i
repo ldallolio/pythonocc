@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GEOMAlgo
+%rename(swm_GEOMAlgo) GEOMAlgo; 
+%module (package="OCC") GEOMAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

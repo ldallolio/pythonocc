@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_AlienImage
+%rename(swm_AlienImage) AlienImage; 
+%module (package="OCC") AlienImage
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GeomPlate
+%rename(swm_GeomPlate) GeomPlate; 
+%module (package="OCC") GeomPlate
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

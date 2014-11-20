@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_SelectBasics
+%rename(swm_SelectBasics) SelectBasics; 
+%module (package="OCC") SelectBasics
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

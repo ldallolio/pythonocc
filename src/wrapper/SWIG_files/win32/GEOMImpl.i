@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GEOMImpl
+%rename(swm_GEOMImpl) GEOMImpl; 
+%module (package="OCC") GEOMImpl
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

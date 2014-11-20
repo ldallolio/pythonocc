@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GeomConvert
+%rename(swm_GeomConvert) GeomConvert; 
+%module (package="OCC") GeomConvert
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

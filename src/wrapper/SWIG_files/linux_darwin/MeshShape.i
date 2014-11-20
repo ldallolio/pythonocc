@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_MeshShape
+%rename(swm_MeshShape) MeshShape; 
+%module (package="OCC") MeshShape
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_RWStepDimTol
+%rename(swm_RWStepDimTol) RWStepDimTol; 
+%module (package="OCC") RWStepDimTol
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

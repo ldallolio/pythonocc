@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BlockFix
+%rename(swm_BlockFix) BlockFix; 
+%module (package="OCC") BlockFix
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

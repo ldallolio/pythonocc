@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepOffset
+%rename(swm_BRepOffset) BRepOffset; 
+%module (package="OCC") BRepOffset
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

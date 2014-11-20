@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GeomProjLib
+%rename(swm_GeomProjLib) GeomProjLib; 
+%module (package="OCC") GeomProjLib
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

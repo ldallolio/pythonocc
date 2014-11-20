@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_StlMesh
+%rename(swm_StlMesh) StlMesh; 
+%module (package="OCC") StlMesh
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

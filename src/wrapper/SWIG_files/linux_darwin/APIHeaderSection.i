@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_APIHeaderSection
+%rename(swm_APIHeaderSection) APIHeaderSection; 
+%module (package="OCC") APIHeaderSection
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

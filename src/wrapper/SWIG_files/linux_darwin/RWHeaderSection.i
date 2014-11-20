@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_RWHeaderSection
+%rename(swm_RWHeaderSection) RWHeaderSection; 
+%module (package="OCC") RWHeaderSection
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

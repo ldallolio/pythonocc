@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Sketcher
+%rename(swm_Sketcher) Sketcher; 
+%module (package="OCC") Sketcher
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_PTopLoc
+%rename(swm_PTopLoc) PTopLoc; 
+%module (package="OCC") PTopLoc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

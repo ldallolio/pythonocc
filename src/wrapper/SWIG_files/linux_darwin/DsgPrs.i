@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_DsgPrs
+%rename(swm_DsgPrs) DsgPrs; 
+%module (package="OCC") DsgPrs
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

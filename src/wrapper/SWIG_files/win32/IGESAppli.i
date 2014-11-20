@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESAppli
+%rename(swm_IGESAppli) IGESAppli; 
+%module (package="OCC") IGESAppli
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

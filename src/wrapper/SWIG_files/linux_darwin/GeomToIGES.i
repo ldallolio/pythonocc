@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_GeomToIGES
+%rename(swm_GeomToIGES) GeomToIGES; 
+%module (package="OCC") GeomToIGES
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

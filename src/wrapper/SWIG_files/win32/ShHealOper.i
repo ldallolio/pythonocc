@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ShHealOper
+%rename(swm_ShHealOper) ShHealOper; 
+%module (package="OCC") ShHealOper
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

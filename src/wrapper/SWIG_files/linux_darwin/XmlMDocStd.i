@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_XmlMDocStd
+%rename(swm_XmlMDocStd) XmlMDocStd; 
+%module (package="OCC") XmlMDocStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

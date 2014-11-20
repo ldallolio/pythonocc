@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_Geom2dInt
+%rename(swm_Geom2dInt) Geom2dInt; 
+%module (package="OCC") Geom2dInt
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

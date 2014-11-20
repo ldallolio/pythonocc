@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BinTObjDrivers
+%rename(swm_BinTObjDrivers) BinTObjDrivers; 
+%module (package="OCC") BinTObjDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

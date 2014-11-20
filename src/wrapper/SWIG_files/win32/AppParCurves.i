@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_AppParCurves
+%rename(swm_AppParCurves) AppParCurves; 
+%module (package="OCC") AppParCurves
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

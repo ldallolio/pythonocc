@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_NLPlate
+%rename(swm_NLPlate) NLPlate; 
+%module (package="OCC") NLPlate
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

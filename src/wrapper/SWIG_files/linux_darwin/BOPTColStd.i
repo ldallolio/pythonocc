@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BOPTColStd
+%rename(swm_BOPTColStd) BOPTColStd; 
+%module (package="OCC") BOPTColStd
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

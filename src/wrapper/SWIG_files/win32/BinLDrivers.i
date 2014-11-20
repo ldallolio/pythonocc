@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BinLDrivers
+%rename(swm_BinLDrivers) BinLDrivers; 
+%module (package="OCC") BinLDrivers
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

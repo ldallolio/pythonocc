@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_MgtBRep
+%rename(swm_MgtBRep) MgtBRep; 
+%module (package="OCC") MgtBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

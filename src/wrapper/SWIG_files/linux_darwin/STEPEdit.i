@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_STEPEdit
+%rename(swm_STEPEdit) STEPEdit; 
+%module (package="OCC") STEPEdit
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

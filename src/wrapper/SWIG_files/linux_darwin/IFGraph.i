@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IFGraph
+%rename(swm_IFGraph) IFGraph; 
+%module (package="OCC") IFGraph
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

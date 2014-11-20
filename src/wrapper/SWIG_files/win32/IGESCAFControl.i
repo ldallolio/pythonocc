@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESCAFControl
+%rename(swm_IGESCAFControl) IGESCAFControl; 
+%module (package="OCC") IGESCAFControl
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

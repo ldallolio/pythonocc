@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ShapeAlgo
+%rename(swm_ShapeAlgo) ShapeAlgo; 
+%module (package="OCC") ShapeAlgo
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

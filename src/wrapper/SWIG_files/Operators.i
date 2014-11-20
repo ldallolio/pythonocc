@@ -23,3 +23,15 @@ along with pythonOCC.  If not, see <http://www.gnu.org/licenses/>.
 Renaming operator = that can't be wrapped in Python
 */
 %rename(Set) *::operator=;
+#if defined(SWIGCSHARP)
+%rename(Index) operator[];
+%rename(Add) operator+;
+%rename(Substract) operator-;
+%rename(Multiply) operator*;
+%rename(Divide) operator/;
+%rename(AddSet) operator+=;
+%rename(SubstractSet) operator-=;
+%rename(MultiplySet) operator*=;
+%rename(DivideSet) operator/=;
+%rename(Call) *::operator();
+#endif

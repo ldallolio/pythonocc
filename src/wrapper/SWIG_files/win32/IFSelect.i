@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IFSelect
+%rename(swm_IFSelect) IFSelect; 
+%module (package="OCC") IFSelect
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

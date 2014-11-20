@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_ExprIntrp
+%rename(swm_ExprIntrp) ExprIntrp; 
+%module (package="OCC") ExprIntrp
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

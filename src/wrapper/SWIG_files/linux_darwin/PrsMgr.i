@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_PrsMgr
+%rename(swm_PrsMgr) PrsMgr; 
+%module (package="OCC") PrsMgr
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

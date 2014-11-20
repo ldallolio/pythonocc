@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_XCAFDoc
+%rename(swm_XCAFDoc) XCAFDoc; 
+%module (package="OCC") XCAFDoc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

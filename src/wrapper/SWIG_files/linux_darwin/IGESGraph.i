@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_IGESGraph
+%rename(swm_IGESGraph) IGESGraph; 
+%module (package="OCC") IGESGraph
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

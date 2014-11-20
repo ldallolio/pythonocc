@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BooleanOperations
+%rename(swm_BooleanOperations) BooleanOperations; 
+%module (package="OCC") BooleanOperations
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

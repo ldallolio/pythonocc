@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepIntCurveSurface
+%rename(swm_BRepIntCurveSurface) BRepIntCurveSurface; 
+%module (package="OCC") BRepIntCurveSurface
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BinMXCAFDoc
+%rename(swm_BinMXCAFDoc) BinMXCAFDoc; 
+%module (package="OCC") BinMXCAFDoc
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepToIGES
+%rename(swm_BRepToIGES) BRepToIGES; 
+%module (package="OCC") BRepToIGES
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

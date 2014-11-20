@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_TopOpeBRep
+%rename(swm_TopOpeBRep) TopOpeBRep; 
+%module (package="OCC") TopOpeBRep
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

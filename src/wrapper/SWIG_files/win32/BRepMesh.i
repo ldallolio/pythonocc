@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_BRepMesh
+%rename(swm_BRepMesh) BRepMesh; 
+%module (package="OCC") BRepMesh
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i

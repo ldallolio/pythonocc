@@ -31,7 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%module SWIGMOD_STEPControl
+%rename(swm_STEPControl) STEPControl; 
+%module (package="OCC") STEPControl
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
