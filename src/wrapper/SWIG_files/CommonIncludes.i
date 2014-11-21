@@ -19,18 +19,20 @@ along with pythonOCC.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
-%include typemaps.i
 %include cmalloc.i
 %include cpointer.i
 %include carrays.i
 %include exception.i
 #if defined(SWIGPYTHON)
+%include typemaps.i
 %include <python/std_string.i>
 #endif
 #if defined(SWIGJAVA)
+%include typemaps.i
 %include <java/std_string.i>
 #endif
 #if defined(SWIGCSHARP)
+%include <csharp/typemaps.i>
 %include <csharp/std_string.i>
 #endif
 
