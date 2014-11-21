@@ -68,5 +68,5 @@ $HeaderURL$
 #include <SMESH_subMeshEventListener.hxx>
 %};
 
-%import SMESH.i
+%import SSMESH.i
 %import TopAbs.i

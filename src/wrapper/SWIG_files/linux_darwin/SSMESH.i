@@ -31,8 +31,8 @@ $HeaderURL$
 #endif
 %}
 
-%rename(swm_SMESH) SMESH; 
-%module (package="OCC") SMESH
+%rename(swm_SSMESH) SSMESH; 
+%module (package="OCC") SSMESH
 %include ../CommonIncludes.i
 %include ../StandardDefines.i
 %include ../ExceptionCatcher.i
